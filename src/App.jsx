@@ -482,7 +482,7 @@ function App() {
                 <h2 className="text-lg font-semibold">Admin Console</h2>
 
                 <form className="grid gap-3 md:grid-cols-3" onSubmit={handleCreateCourse}>
-                  <h3 className="md:col-span-3 text-base font-semibold">Manage Course Schedule</h3>
+                  <h3 className="text-base font-semibold md:col-span-3">Manage Course Schedule</h3>
                   <label className="text-sm font-medium md:col-span-2">
                     Course Title
                     <input
